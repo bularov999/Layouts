@@ -1,0 +1,133 @@
+body{
+    background-color:#e1e7ed;
+    font-family:Arial , sans-serif;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.about_images{
+    margin-top:61px;
+    position:relative;
+    line-height:0;
+}
+
+.triangle{
+    position:absolute;
+    top:0;
+    z-index:10;
+}
+
+.star{
+    position:absolute;
+    top:14px;
+    z-index:20;
+    left:15px;
+}
+
+.images span {
+    position:absolute;
+    right:31px;
+    bottom:23px;
+    padding-left:16px;
+    padding-top:26px;
+    z-index:10;
+    width:81px;
+    height:81px;
+    background:#ff638f;
+    border-radius:50%;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:24px;
+    line-height:normal;
+}
+
+section{
+    background-color:#ffffff;
+    width:750px;
+    margin:0 auto;
+    box-sizing:border-box;
+    /*overflow:hidden;*/
+    padding: 22px 0 40px 3px ;
+}
+
+.jumbotron{
+    width:690px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+h1{
+    margin:0 ;
+    font-weight:normal;
+    display:inline;
+}
+
+section h1 a {
+    font-size:19px;
+    color:#33363b;
+    text-decoration:none;
+    display:inline-block;
+
+}
+
+section p {
+    font-size:15px;
+    color:#868d9b;
+    line-height:1.6em;
+    margin: 0;
+    padding:16px 0 33px 2px;
+}
+
+.cost{
+    float:right;
+    font-size:19px;
+    color:#65bd8c;
+    display:inline-block;
+    margin:05px 1px 0 0 ;
+}
+
+.users , .purchased {
+    display:inline-block;
+    float:left;
+}
+
+.users img{
+    margin-right:6px;
+}
+
+.count{
+    display:inline-block;
+    font-size:14px;
+    color:#868d9b;
+    border:#868d9b 1px solid ;
+    height:32px;
+    width:60px;
+    border-radius:20px;
+    padding-top: 6px;
+    padding-left:15px;
+    text-decoration:none;
+    margin-right:10px;
+}
+
+.text{
+    color:#868d9b;
+    font-size:14px;
+    text-decoration:none;
+}
+
+.see_more{
+    float:right;
+    text-decoration:none;
+    width:138px;
+    height:51px;
+    border-radius:5px;
+    background:#ff638f;
+    color:#ffffff;
+    padding:19px 30px;
+    text-transform:uppercase;
+    font-size:14px;
+    font-weight:bold;
+}

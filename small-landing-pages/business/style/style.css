@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+    line-height:1.3em;
+}
+
+header{
+    padding:20px 0 20px 0;
+}
+
+.header_logo{
+    width:998px;
+    margin:0 auto;
+}
+
+nav{
+    margin-top:2%;
+    margin-left:11%;
+}
+
+.logo {
+    font-size: 37px;
+    color: #424242;
+    font-weight: bold;
+    text-decoration: none;
+    background: url("../images/logo.png") 0 0 no-repeat;
+    padding-left:80px;
+}
+
+.container{
+    width:998px;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+li{
+    display:inline-block;
+}
+
+li a {
+    text-decoration:none;
+    color:#424242;
+    font-size:15px;
+    font-weight:bold;
+    margin-right:40px;
+}
+
+.promo{
+    background-image:url("../images/main-pic.jpg");
+    background-repeat:no-repeat ;
+    height:589px;
+    padding-top:100px;
+    box-sizing:border-box;
+}
+
+h1{
+    font-size:48px;
+    color:#fff;
+    font-weight:bold;
+    box-sizing:border-box;
+    margin-bottom:30px;
+}
+
+.promo p {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom:20px;
+    box-sizing:border-box;
+}
+.promo a{
+    font-size:23px;
+    color:#fff;
+    font-weight:bold;
+    background-color:#f8cd53;
+    text-decoration:none;
+    display:inline-block;
+    height:70px;
+    line-height:70px;
+    width:300px;
+    border-radius:5px;
+    text-transform:uppercase;
+    margin-left:30px;
+    margin-top:30px;
+}
+
+h2{
+    margin-top:100px;
+    font-size:36px;
+    color:#424242;
+    font-weight:bold;
+}
+
+.first_paragraph{
+    font-size:20px;
+    color:#424242;
+    font-weight:bold;
+}
+
+h5 a {
+    text-decoration:none;
+    font-size:22px;
+    color:#424242;
+    font-weight:bold;
+}
+
+.items p{
+    font-size:13px;
+    color:#5c5c5c;
+    font-weight:bold;
+    box-sizing:border-box;
+    display:inline-block;
+}
+
+.items div{
+    display:inline-block;
+    width:320px;
+}
+
+.items p {
+    width:250px;
+}
+.item1 , .item2 , .item3 {
+    /*width:250px;*/
+    display:inline-block;
+    /*box-sizing:border-box;*/
+    padding-top:100px;
+    margin-top:5%;
+
+}
+
+.item1 {
+    margin-right:10px;
+    background: url("../images/ic-hand.png")50% 0  no-repeat;
+    /*background-position: 50% 0;*/
+
+
+}
+
+.item2{
+    margin-right:100px;
+    width:260px;
+    margin-left:10%;
+    background: url("../images/ic-book.png")no-repeat;
+    background-position: 50% 0;
+}
+
+.item3{
+    background: url("../images/ic-comment.png")no-repeat;
+    background-position: 50% 0;
+}
+
+footer{
+    background-color:#515151;
+    height:50px;
+}
+
+footer p {
+    font-size:14px;
+    color:#cecece;
+    font-weight:normal;
+    margin-left:67%;
+}

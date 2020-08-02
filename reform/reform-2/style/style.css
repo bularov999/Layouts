@@ -1,0 +1,169 @@
+body {
+    font-family: verdana, sans-serif;
+    min-width: 986px;
+    line-height: 1.3em;
+}
+
+.container {
+    width: 986px;
+    margin: 0 auto;
+}
+
+.container header h1 a {
+    background: url("../images/logo.jpg") no-repeat;
+    width: 246px;
+    height: 54px;
+    display: inline-block;
+}
+
+ul {
+    padding-left:0;
+}
+
+
+nav li {
+    float: left;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    background: #03a7d4;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-right: 1px;
+}
+
+.garant a {
+    padding-right:115px;
+}
+
+aside {
+    clear: both;
+    float: left;
+    width: 25%;
+    margin-top:20px;
+}
+
+aside h2 {
+    box-sizing:border-box;
+    margin-bottom:10px;
+}
+
+aside h2 a {
+    font-size: 23px;
+    color: #008fbf;
+    font-weight: normal;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+
+aside a, span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+aside span {
+    color: #000;
+
+}
+
+aside a {
+    color: #008fbf;
+}
+
+aside div {
+    margin-bottom: 15px;
+}
+
+main{
+    width:70%;
+    float:right;
+    margin-top:25px;
+}
+
+
+
+section h2 a  {
+    font-size:28px;
+    color: #008fbf;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+section h3 a {
+    font-size:16px;
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+section  p {
+    font-size:14px;
+    font-weight:normal;
+    color:#000;
+}
+
+.kids_room img {
+    float:right;
+    margin-left:20px;
+}
+
+.kids_room article {
+    margin-left:10px;
+}
+
+.kids_room .blog_1 p {
+    width:450px;
+}
+
+.kids_room  .blog_2{
+    margin-top:40px;
+}
+
+.kids_room .blog_2 p {
+    margin-top:20px;
+}
+
+.living_room img{
+    float:left;
+    margin-right:20px;
+}
+
+.living_room{
+    margin-top:60px;
+    margin-bottom:70px;
+}
+
+.living_room h2  {
+    margin-bottom:30px;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    border-top:#EDEDED dashed;
+    margin-top:50px;
+
+}
+
+footer p {
+    font-size: 19px;
+    color: #595959;
+    font-weight: bold;
+    margin-left:10px;
+
+}
+
+footer span {
+    color: #000;
+    font-weight:bold;
+    text-transform:uppercase;
+}

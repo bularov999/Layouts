@@ -1,0 +1,113 @@
+body{
+    background:#dbf1fa;
+    color:#787878;
+    font-size:11px;
+    font-family: Arial , sans-serif;
+}
+
+.content{
+    position: relative;
+}
+
+.container{
+    width:237px;
+    border-top:1px dashed #6d787d;
+    margin:100px;
+    padding:31px 0 31px 31px;
+}
+
+.key{
+    width:26px;
+    height:11px;
+    background:url("../images/key.png")0 no-repeat;
+    display:inline-block;
+    position:absolute;
+    top:5px;
+    left:-30px;
+}
+
+
+form{
+    margin-bottom:15px;
+}
+
+form:first-child{
+    margin-top:15px;
+}
+
+.content input[type="text"]{
+    margin-left:40px;
+    border-radius:3px;
+}
+
+.content input[type="password"]{
+    margin-left:40px;
+    border-radius:3px;
+}
+
+.log_in{
+    font-size:14px;
+    text-decoration:none;
+    color:#787878;
+    font-style:italic;
+}
+
+.registration{
+    font-size:13px;
+    color: #1b6fb6;
+}
+
+.form-row-login label{
+    position: absolute;
+    top:33px;
+}
+
+.form-row-password label{
+    position:absolute;
+    top:66px;
+}
+
+button{
+    position:absolute;
+    top:87px;
+    left:114px;
+    color:white;
+    width:71px;
+    height:25px;
+    background:#2ba07f;
+    border:1px #4d726f solid;
+    border-radius:3px;
+    font-size:14px;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+
+.form-row-checkbox label{
+    padding-left:20px;
+    position:absolute;
+    top:91px;
+}
+
+.form-row-checkbox input[type="checkbox"] + label{
+    background:url("../images/radio.png") 0 -3px no-repeat;
+    display:inline-block;
+    width:16px;
+    height:14px;
+}
+
+.form-row-checkbox input[type="checkbox"]:checked + label{
+    background-position:0 -15px; ;
+}
+
+.buttons{
+    margin-top:40px;
+}
+
+.buttons a:nth-child(2){
+    text-decoration: underline;
+    color:#1b6fb6;
+    margin-left:87px;
+}
+

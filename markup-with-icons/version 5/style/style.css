@@ -1,0 +1,91 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background:#d58c2c;
+}
+
+.content{
+    width:200px;
+   margin:200px;
+
+}
+
+.container{
+    box-sizing:border-box;
+    padding-top:26px;
+    padding-bottom:26px;
+    background:url("../images/note.jpg")no-repeat;
+
+}
+
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    text-transform:uppercase;
+    color:#ffffff;
+    font-size:13px;
+    box-sizing:border-box;
+    margin:0;
+    text-align:center;
+    height:28px;
+    padding-top:7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background:#414141;
+}
+
+li{
+    list-style:none;
+    border-top:1px solid #acd3fa;
+}
+
+li:last-child{
+    border-bottom:1px solid #acd3fa;
+}
+
+li a {
+    text-decoration:none;
+    color:#656565;
+    display:block;
+    height:26px;
+    font-size:11px;
+    line-height:26px;
+}
+
+li ::before{
+    content:'\2714';
+    color:#087310;
+    padding-right:34px;
+    padding-left:8px;
+    width:5px;
+    height:5px;
+    display:inline-block;
+}
+
+li a:hover::before {
+    content: '\2022';
+    color: black;
+}
+li a:hover {
+    color: black;
+}
+
+.first_line{
+    width:190px;
+    height:5px;
+    background:white;
+    border:1px solid #d58c2c;
+    margin-top:9px;
+    margin-bottom:0;
+}
+
+.second_line{
+    width:180px;
+    height:5px;
+    background:white;
+    border:1px solid #d58c2c;
+    margin-top:0px;
+}

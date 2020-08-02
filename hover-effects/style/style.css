@@ -1,0 +1,110 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    color:#fff;
+}
+
+.blog{
+    margin:100px;
+}
+
+.container{
+    max-width:1170px;
+    min-width:320px;
+    margin:0 auto;
+}
+
+.items {
+    display:flex;
+    justify-content: space-between;
+}
+
+.item {
+    text-align:center;
+}
+
+.pic {
+    /*background-color:#0eb493;*/
+    width:270px;
+    height:300px;
+    margin-bottom:20px;
+}
+
+h6,p {
+    transform:translate(0 , -142px) scale(0);
+
+    width:223px;
+    margin:0 auto;
+}
+
+h6 {
+    font-weight:700;
+    font-size:16px;
+}
+
+p{
+    font-weight:normal;
+}
+
+section{
+    display:flex;
+    width:60%;
+    margin:0 auto;
+    justify-content:space-between;
+    opacity:0.7;
+    transform:translate(0 , -173px) scale(0);
+
+}
+
+i {
+    font-size:25px;
+    padding-top:7px;
+    height:40px;
+    width:45px;
+    background:#495057;
+}
+
+article div a {
+    color:#b2b2b2;
+}
+
+.name {
+    color:#062033;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+}
+
+.name span {
+    font-size:13px;
+    color:#979ca1;
+    font-weight:normal;
+    display:block;
+}
+
+.item:hover .pic{
+    background:#0eb493;
+    transition:all 0.4s;
+}
+
+.item:hover img {
+    opacity:0.05;
+}
+
+.item:hover .name {
+    color:#0eb493;
+}
+
+.item:hover h6 {
+    transform:translate(0,-290px ) scale(1);
+    transition:all 0.3s;
+}
+
+.item:hover  p {
+    transform:translate(0,-280px ) scale(1);
+    transition:all 0.3s;
+}
+
+.item:hover section{
+    transform:translate(0 ,-210px) scale(1);
+}

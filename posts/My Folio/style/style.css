@@ -1,0 +1,84 @@
+
+body{
+    margin:0 auto;
+    padding:0 auto;
+    font-family:Arial, sans-serif;
+
+}
+
+header{
+    background: #02918c;
+    height:62px;
+
+}
+
+.head{
+    margin-left:10%;
+    margin-top:10px;
+}
+
+.jumbotron{
+    width:100%;
+    height:auto;
+}
+
+.container{
+    width:1008px;
+    margin:0 auto;
+    text-align:center;
+
+}
+
+h1 a {
+    color: #02918c;
+    font-size:46px;
+    font-weight:bold;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.about_me p {
+    font-size:16px;
+    color:#7e8287;
+    line-height:40px;
+}
+
+li h5 {
+    font-size:18px;
+    font-weight:bold;
+    color:#7e8287;
+}
+li p {
+    font-size:14px;
+    font-weight:normal;
+    color:#7e8287;
+    line-height:21px;
+}
+
+footer{
+    height:79px;
+    background:#000;
+}
+
+footer span{
+    color:#7e8287;
+    font-size:12px;
+    font-weight:normal;
+    text-transform: uppercase;
+    line-height:79px;
+    text-align:center;
+    margin-left:50%;
+}
+
+/*?непонятно как вместить их по линии контейнера*/
+li{
+    display:inline-block;
+    width:20%;
+    margin:50px 22px;
+    /*margin:0 auto;*/
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration:none;
+}

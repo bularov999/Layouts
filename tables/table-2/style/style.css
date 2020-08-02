@@ -1,0 +1,108 @@
+body{
+    min-width:650px;
+    max-width:800px;
+    color:#2f4455;
+    font-family:Arial , sans-serif;
+    font-size:12px;
+}
+
+.container{
+    width: 754px;
+    margin:0 auto;
+}
+
+table{
+    width:754px;
+    border-collapse:separate;
+    table-layout:fixed;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+td{
+    table-layout:fixed;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h1{
+    color:#003663;
+    font-size:20px;
+    font-weight:normal;
+}
+
+p{
+    color:#7f7f7f;
+    font-size:13px;
+}
+
+td:first-child{
+    font-size:14px;
+    color:#2f4455;
+    width:176px;
+}
+
+td:nth-child(2){
+    font-size:12px;
+    width:195px;
+    color: #2f4455;
+    padding-left:10px;
+}
+
+td:last-child{
+    width:128px;
+}
+
+span{
+    background:url("../images/star.png") 0 0  repeat-x;
+    display:block;
+    height:15px;
+}
+
+td a {
+    text-decoration:none;
+    color:#0c99c8;
+    font-size:12px;
+}
+
+td  {
+    padding:10px;
+
+}
+
+table td:nth-child(3){
+    width:88px;
+    padding-right:10px;
+}
+
+table tr:nth-child(2n+1){
+    background: #f4fbfd;
+}
+
+table tr:nth-child(2n+1) td{
+    border-top:1px solid #d7e7ec;
+}
+
+table tr:nth-child(2n+1) td{
+    border-bottom:1px solid #d7e7ec;
+}
+
+table tr:nth-child(2n+1) td:last-child{
+    border-right:1px solid #d7e7ec;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+table tr:nth-child(2n+1) td:first-child{
+    border-left:1px solid #d7e7ec;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}

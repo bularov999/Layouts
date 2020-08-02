@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Aparajita';
+    src: url('Aparajita.woff2') format('woff2'),
+        url('Aparajita.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aparajita';
+    src: url('Aparajita-Bold.woff2') format('woff2'),
+        url('Aparajita-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

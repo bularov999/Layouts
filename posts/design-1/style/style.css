@@ -1,0 +1,54 @@
+body{
+    font-family: Arial sans-serifserif;
+    font-size:14px;
+    line-height:1.3em;
+    background:#e1e7ed;
+
+}
+.cards{
+    width:760px;
+    margin:0 auto;
+    text-align:center;
+    margin-top:50px;
+}
+.card{
+    display:inline-block;
+    width:360px;
+    background:white;
+    margin-left:18px;
+}
+
+h4 a {
+    font-size:18px;
+    font-weight:normal;
+    color:#33363b;
+    text-decoration:none;
+    font-family:sans-serif;
+
+}
+
+p{
+    color:#868d9b;
+    line-height:20px;
+    font-size:14px;
+    font-family:sans-serif;
+
+}
+
+.button_byu_now{
+    width:298px;
+    height:50px;
+    background:#ff638f;
+    color:white;
+    display:inline-block;
+    line-height:50px;
+    text-transform:uppercase;
+    margin-bottom : 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-family:sans-serif;
+}
+.content{
+    width:350px;
+    margin:0 auto;
+}

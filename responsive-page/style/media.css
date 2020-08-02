@@ -1,0 +1,91 @@
+@media screen and (min-width: 640px) {
+    header {
+        background: url("../images/big-photo.jpg") 50% 0 no-repeat;
+        width:100%;
+        overflow:hidden;
+    }
+
+    header nav {
+        float:none;
+    }
+
+    header nav ul {
+        position: static;
+        width: 100%;
+        background: none;
+        display:block;
+
+    }
+
+     header nav ul li {
+         display:inline-block;
+         margin:30px 28px 20px 0px;
+     }
+
+    header nav ul li:first-child{
+        margin-left:30px;
+    }
+
+    .sub-nav li a {
+         color:#f26c4f;
+         font-weight:500;
+         border:none;
+         display:inline-block;
+         padding:10px 0px 10px 0px;
+     }
+
+    header nav button{
+        display:none;
+    }
+
+    header h1 a {
+        background:#f26c4f url("../images/logo.png") 50% 50% no-repeat;
+        display:inline-block;
+        height:98px;
+        width:95px;
+        background-size:22px;
+    }
+
+    footer a {
+        width:270px;
+    }
+
+}
+
+@media screen and (min-width: 1174px) {
+
+    header nav ul li {
+        margin-right:49px;
+    }
+
+    section{
+        position:relative;
+    }
+
+   section  .column_1 {
+        width:580px;
+        float:left;
+        padding-left:0;
+        margin:70px 0;
+    }
+
+
+    section .column_2 {
+        width:514px;
+        float:right;
+        padding-top:98px;
+    }
+
+    footer {
+        clear:both;
+    }
+
+    footer .container div{
+        width:580px;
+    }
+
+    footer a {
+        padding:20px 75px;
+    }
+
+}

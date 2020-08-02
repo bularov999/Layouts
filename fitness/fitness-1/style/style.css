@@ -1,0 +1,239 @@
+body{
+    background-color:#a2ca28;
+    color:#ffffff;
+    font-size:14px;
+    min-width:1001px;
+    line-height:1.3em;
+    font-family:Arial , sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:1001px;
+    margin:0 auto;
+}
+
+header{
+    background-color:#2e3b4e;
+    height:97px;
+    margin-bottom:108px;
+}
+
+.logo{
+    display:inline-block;
+    width:151px;
+    height:47px;
+    background:url("../images/logo.png") 0 0  no-repeat;
+    margin-top:33px;
+}
+
+nav {
+    float:right;
+    line-height:97px;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+}
+
+nav ul li  {
+    display:inline-block;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color:#ffffff;
+    font-size:13px;
+    text-transform:uppercase;
+    margin-left:70px;
+}
+
+
+.about_site article {
+    width:264px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.about_site article h2 a {
+    display:inline-block;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:24px;
+    font-weight:normal;
+}
+
+.about_site .case {
+    background: url("../images/case.png") 0 0 no-repeat;
+    padding-top:62px;
+}
+
+.about_site .timer {
+    background :url("../images/timer.png") 0 0 no-repeat;
+    padding-top:62px;
+
+
+}
+
+.about_site .cloud{
+    background:url("../images/cloud.png") 0 0 no-repeat;
+    padding-top:62px;
+}
+
+.resources , .training_funding{
+    margin-right:92px;
+}
+
+.about_site p {
+    line-height:1.7em;
+}
+
+.more_information{
+    text-decoration:none;
+    font-size:18px;
+    color:#ffffff;
+}
+
+.about_all{
+    line-height:0;
+    margin-top:122px;
+}
+
+.about_all article{
+    font-size:14px;
+    text-align:center;
+}
+
+.about_all div img {
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+.about_all_1 div{
+    width:401px;
+    height:394px;
+    float:left;
+    background:#ffffff;
+    line-height:2em;
+    margin:0 auto;
+    padding-top:26px;
+}
+
+.about_all_2 div{
+    width:402px;
+    height:394px;
+    float:right;
+    background:#ffffff;
+    line-height:2em;
+    margin:0 auto;
+    padding-top:26px;
+}
+
+
+
+.about_all h3 span {
+    color:#fd634e;
+    font-size:14px;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+
+.about_all h3 a {
+    text-decoration:none;
+    font-size:35px;
+    color:#a2ca28;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+
+.about_all p {
+    color:#656e74;
+    font-size:14px;
+    width:312px;
+    margin:0 auto;
+
+}
+
+.read_more {
+    color:#a2ca28;
+    font-size:18px;
+    text-decoration:underline;
+}
+
+footer {
+    height:248px;
+    background-color:#0d1119;
+    box-sizing:border-box;
+}
+
+footer h4{
+    font-size:16px;
+    font-weight:normal;
+}
+
+footer p {
+    line-height:2em;
+    color:#8297a7;
+    width:400px;
+    text-align:left;
+}
+
+
+.des_1{
+    float:left;
+    width:455px;
+    margin-top:40px;
+}
+
+.des_2 {
+    float:right;
+    margin-top:40px;
+}
+
+.des_2 a {
+    display:inline-block;
+    margin-left:10px;
+}
+
+.facebook {
+    border-radius:50%;
+    padding-left:15px;
+    padding-top:10px;
+    background:#2e3192;
+    height:40px;
+    width:40px;
+
+}
+
+.twitter{
+    border-radius:50%;
+    background:#00aeef;
+    height:40px;
+    width :40px;
+    padding-left:12px;
+    padding-top:11px;
+
+
+}
+
+.youtube{
+    border-radius:50%;
+    background:#ed3123;
+    height:40px;
+    width :40px;
+    padding-left:9px;
+    padding-top:11px;
+}
+
+
+.linkedin{
+    border-radius:50%;
+    background:#171a8f;
+    height:40px;
+    width :40px;
+    padding-left:11px;
+    padding-top:8px;
+
+}

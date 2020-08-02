@@ -1,0 +1,108 @@
+body{
+    font-family:Arial , sans-serif;
+    background:#e9e6e6;
+}
+
+.container{
+    margin:100px;
+    background:#ffffff;
+    width:267px;
+    text-align:center;
+    padding:10px 3px 24px 0 ;
+    box-sizing:content-box;
+}
+
+h1{
+    font-weight:bold;
+    font-size:16px;
+    color:#475965;
+    text-transform:uppercase;
+    margin-bottom:33px;
+}
+
+
+button{
+    width:228px;
+    height:40px;
+    background:#21b8c6;
+    font-weight:bold;
+    font-size:15px;
+    color:#ffffff;
+    border-radius:3px;
+    text-transform: uppercase;
+    border:none;
+    margin:5px 0 0 0 ;
+}
+
+span{
+    font-size:13px;
+    color:#7d8e9a;
+    font-weight:normal;
+    width:100px;
+    margin:0px 5px 0px 0px;
+}
+
+a{
+    color:#475965;
+    font-size:13px;
+    text-decoration:none;
+    background:url("../images/arrow.png")90px 4px no-repeat;
+    width:102px;
+    display:inline-block;
+    text-align:left;
+}
+
+form div {
+    margin:0px 13px 17px 16px;
+}
+
+label{
+    vertical-align:bottom;
+    border-top:#ced6dc 1px solid;
+    border-bottom:#ced6dc 1px solid;
+    border-left:#ced6dc 1px solid;
+}
+
+.username{
+    background:url("../images/user.png")  11px 6px   no-repeat;
+    width:43px;
+    height:35px;
+    display:inline-block;
+}
+
+input::-webkit-input-placeholder {
+    padding-left:10px;
+    color:#ced6dc;
+}
+
+input{
+    height:35px;
+    width:183px;
+    text-align:left;
+    border:#ced6dc solid 1px;
+}
+
+.password{
+    background:url("../images/lock.png")  14px 9px   no-repeat;
+    width:43px;
+    height:35px;
+    display:inline-block;
+}
+
+.question{
+    margin:13px 0px -5px 0px;
+}
+
+input:focus {
+    border:#727f8c 1px solid;
+    color:#727f8c;
+}
+
+label:focus{
+    color:#727f8c;
+    border:#727f8c 1px solid;
+}
+
+input:focus::-webkit-input-placeholder{
+    color:#727f8c;
+}

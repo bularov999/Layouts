@@ -1,0 +1,209 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+    padding:0;
+    font-weight:400;
+}
+
+.container{
+    width:1170px;
+    margin:0 auto;
+    text-align:center;
+}
+
+header h1 a{
+    font-size:32px;
+    font-weight:700;
+    color:#637f83;
+    text-decoration:none;
+    float:left;
+}
+
+.main-pic {
+    position:relative;
+}
+
+.main-des{
+    position:absolute;
+    top:75px;
+    left:93px;
+}
+
+.main-pic h2 a{
+    font-size:40px;
+    font-weight:600;
+    color:#ffffff;
+    text-decoration:underline;
+    width:412px;
+    display:inline-block;
+}
+
+.main-pic p{
+    color:#ffffff;
+    font-size:16px;
+    width:199px;
+    text-align:center;
+    position:absolute;
+    top:106px;
+    left:481px;
+    display:inline-block;
+}
+
+.block h2 {
+    margin-bottom:0;
+}
+
+.block h2 a{
+    text-decoration:none;
+    color:#637f83;
+    font-size:34px;
+}
+
+.block p {
+    color:#637f83;
+    font-size:16px;
+    margin-top:0;
+}
+
+.services{
+    background:#f6f6f6;
+    padding:130px 0;
+}
+
+.services ul{
+    margin:0;
+    padding:0;
+}
+
+.services ul li{
+    display:inline-block;
+    position: relative;
+    /*width:196px;*/
+    width:24%;
+}
+
+.services li a{
+    text-decoration:none;
+    color:#637f83;
+    font-size:22px;
+    font-weight:600;
+    display:inline-block;
+}
+
+.services li:first-child a::before{
+    content:'';
+    background:url("../images/screen.png") 0px 0px no-repeat;
+    width:73px;
+    height:63px;
+    display:inline-block;
+    position:absolute;
+    top:-84px;
+    left:104px;
+}
+
+.services li:nth-child(2) a::before{
+    content:'';
+    width:59px;
+    height:62px;
+    background:url("../images/flask.png") 0px 0px no-repeat;
+    display:inline-block;
+    position:absolute;
+    top:-84px;
+    left:113px;
+
+}
+
+.services li:nth-child(3) a::before{
+    content:'';
+    width:69px;
+    height:65px;
+    background:url("../images/settings.png") 0px 0px no-repeat;
+    display:inline-block;
+    position:absolute;
+    top:-84px;
+    left:104px;
+}
+
+.services li:last-child a::before{
+    content:'';
+    width:70px;
+    height:60px;
+    background:url("../images/microphone.png") 0px 0px no-repeat;
+    display:inline-block;
+    position:absolute;
+    top:-84px;
+    left:104px;
+}
+
+.services p{
+    color:#959494;
+    font-size:14px;
+    width:69%;
+    text-align:center;
+    margin:10px 0 23px 47px;
+}
+
+.services button{
+    font-size:16px;
+    color:#ffffff;
+    background:#637f83;
+    border:none;
+    height:33px;
+    width:70px;
+    border-radius:3px;
+}
+
+.promo h2{
+    margin-bottom:0;
+}
+
+.promo h2 a{
+    font-size:34px;
+    color:#637f83;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.promo p{
+    font-size:24px;
+    color:#637f83;
+    margin:0;
+}
+
+.images{
+    margin: 100px 0 30px 110px;
+    overflow:hidden;
+}
+
+.images img{
+    float:left;
+    margin-right:20px;
+}
+
+.images a {
+    clear:both;
+    text-decoration:none;
+    font-weight:600;
+    width:151px;
+    height:41px;
+    line-height:41px;
+    border-radius:3px;
+    text-align:center;
+    color:#ffffff;
+    background:#e4551d;
+    font-size:18px;
+    display:inline-block;
+    margin:35px 40%;
+}
+
+footer {
+    background:#637f83;
+    padding:20px 0;
+    clear:left;
+}
+
+footer p{
+    color:#ffffff;
+    font-size:14px;
+}
+

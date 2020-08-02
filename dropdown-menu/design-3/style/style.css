@@ -1,0 +1,273 @@
+body{
+    background:#ffffff;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+
+header{
+    background:#05aecc;
+}
+
+.container>header>nav{
+    margin-left:116px;
+    margin-right:50px;
+}
+
+.container>header>nav>ul{
+    margin:0;
+    padding:0;
+    float:right;
+}
+
+.container>header>nav>ul>li {
+    float:left;
+    list-style:none;
+}
+
+.container>header>nav>ul>li>a{
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    color:#ffffff;
+    font-size:16px;
+    padding:30px 25px;
+    display:inline-block;
+}
+
+.sub {
+    position:relative;
+}
+
+.sub-nav{
+    padding:10px;
+    width:263px;
+    position:absolute;
+    z-index:999;
+    top:83px;
+    left:0px;
+    background:#ffffff;
+    box-shadow:0px -5px 5px 0px rgba(50, 50, 50, 0.36);
+    display:none;
+}
+
+.sub-nav img{
+    float:left;
+    margin-right:10px;
+}
+
+.sub li{
+    list-style:none;
+    margin-bottom:15px;
+    padding-bottom:15px;
+    border-bottom:1px solid #cacaca;
+}
+
+.sub li h6{
+    margin:0;
+    padding:0;
+    line-height:1.3em;
+}
+
+.sub p {
+    margin:0;
+    padding:0;
+}
+
+.sub li h6 a {
+    color:#ef5966;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    text-decoration:none;
+    line-height:1.3em;
+}
+
+.sub p {
+    color:#454545;
+    font-size:14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.sub .more_detail{
+    display:inline-block;
+    padding:3px 25px;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:12px;
+    font-family: 'Lato', sans-serif;
+    background:#05aecc;
+    margin-top:3px;
+}
+
+.see_all_items{
+    font-size:16px;
+    color:#ef5966;
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+}
+
+.sub-nav li:last-child{
+    border:none;
+    padding:0;
+    margin:0
+}
+
+.container>header>nav>ul>li>:hover{
+    background: #ffffff;
+    color:#ef5966;
+}
+
+.sub:hover .sub-nav{
+    display:block;
+}
+
+
+
+
+.main-pic , .pictures {
+    float:left;
+    position:relative;
+}
+
+main{
+    margin-top:14px;
+    font-family:'aparajita' , sans-serif;
+}
+
+.pictures{
+    margin-left:5px;
+}
+
+.black_background{
+    background:#5b526f;
+    opacity:0.7;
+}
+
+.red_background{
+    background:#d95363;
+    width:349px;
+    padding:9px 10px;
+    position:absolute;
+    top:521px;
+    left:0px;
+}
+
+.red_background p {
+    color:#ffffff;
+    font-size:20px;
+    font-family:'aparajita' , sans-serif;
+    text-transform:uppercase;
+    margin:0;
+}
+
+.man_black_block{
+    position:absolute;
+    top:401px;
+    left:0px;
+    width:349px;
+    padding:0px 21px 21px 21px;
+}
+
+.man_black_block  p{
+    font-size:13px;
+    color:#ffffff;
+    font-family:'Lato' , sans-serif;
+    margin:0;
+    text-transform:uppercase;
+
+}
+
+main .main-pic span {
+    font-size:55px;
+    text-transform:uppercase;
+    color:#ef5966;
+    font-weight:bold;
+}
+
+.women_block{
+    width:267px;
+    position:absolute;
+    top:226px;
+    left:0px;
+    padding:5px 13px 10px 13px;
+}
+
+.women_block span {
+    color:#ef5966;
+    font-size:35px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.women_block p {
+    color:#ffffff;
+    font-size:12px;
+    text-transform:uppercase;
+    margin:0;
+    font-family:'Lato' , sans-serif;
+    font-weight:bold;
+}
+
+.pic-2 {
+    position:relative;
+}
+
+.pic-2 section {
+    position: absolute;
+    top: 151px;
+    left: 195px;
+    font-size: 0;
+
+}
+
+.baby_shop{
+    color:#ffffff;
+    font-size:16px;
+    font-family:'Lato' , sans-serif;
+    display:inline-block;
+    background:#05aecc;
+    width:103px;
+    height:55px;
+    font-weight:normal;
+    position:absolute;
+    top:21px;
+    left:-6px;
+    text-align:center;
+    line-height:55px;
+}
+
+.gift{
+    display:inline-block;
+    width:51px;
+    height:55px;
+    background:#00a1be url("../images/gift.png") 14px 13px no-repeat;
+    position:absolute;
+    top:21px;
+    left:97px;
+}
+
+.truck {
+    display:inline-block;
+    width:53px;
+    height:55px;
+    background:#f0626e url("../images/cart.png") 10px 15px no-repeat;
+    position:absolute;
+    top:21px;
+    left:148px;
+}
+
+.price{
+    background:#323232;
+    font-size:24px;
+    color:#ffffff;
+    font-family:'Lato' , sans-serif;
+    display:inline-block;
+    padding:10px 13px;
+    position:absolute;
+    top:21px;
+    left:201px;
+}

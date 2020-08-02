@@ -1,0 +1,210 @@
+body{
+    font-family: Arial , sans-serif;
+    margin:0;
+    padding:0;
+    line-height:1.3em;
+    min-width:800px;
+}
+
+.container{
+    width:800px;
+    margin:0 auto;
+    /*text-align:center;*/
+}
+
+header{
+    background-color:#f5f5f5;
+    width: 100%;
+}
+
+
+h1 {
+    margin: 0 0 5% 0;
+    text-align:center;
+}
+
+nav {
+    text-align:center;
+    padding-bottom:3%;
+}
+
+  .logo{
+    font-size:36px;
+    color:#333;
+    font-weight:bold;
+    text-decoration:none;
+    background:url("../images/logo.png")50% 70% no-repeat;
+    display:inline-block;
+    box-sizing:border-box;
+      padding-top:100px;
+
+
+}
+
+li{
+    display:inline-block;
+}
+
+nav li a{
+    text-decoration:none;
+    font-size:15px;
+    color:#3b4350;
+    font-weight:bold;
+    text-transform:uppercase;
+    display:inline-block;
+    padding: 0 20px;
+
+}
+
+.main{
+    display:table;
+    margin-top:3%;
+}
+
+.promo{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    box-sizing:border-box;
+    width:50%;
+    padding:5%;
+}
+
+.promo h2 {
+    font-size:36px;
+    color:#fff;
+    font-weight:normal;
+    margin-bottom:5%;
+}
+
+.promo span{
+    font-size:14px;
+    color:#fff;
+    font-weight:normal;
+
+
+}
+
+.promo p{
+    font-size:16px;
+    color:#fff;
+    font-weight:normal;
+    line-height:1.9em;
+
+}
+
+.promo_text{
+    background-color:#4caf50;
+}
+
+.promo_image{
+    background-color:#949494;
+}
+
+.promo_text a {
+    text-decoration:none;
+    font-size:36px;
+    color:#fff;
+    font-weight:normal;
+}
+
+.main-2{
+    background-color:#f5f5f5;
+    box-sizing:border-box;
+    padding-bottom: 1%;
+
+}
+
+.about_site{
+    text-align:center;
+    margin-top:5%;
+    box-sizing:border-box;
+    padding-top:15%;
+}
+
+.about_site h2 a {
+    font-size:35px;
+    color:#3b4350;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+.about_site p{
+    font-size:16px;
+    color:#525252;
+    font-weight:normal;
+    width:70%;
+    margin:0 auto;
+    line-height:2em;
+
+}
+
+.items{
+    margin-top:8%;
+    margin-bottom:8%;
+}
+
+.items a {
+    text-decoration:none;
+
+}
+
+.items i {
+    height:60px;
+    width:60px;
+    background-color:#4caf50;
+    border-radius:50%;
+    display:inline-block;
+
+}
+
+.item p{
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.pic-1{
+    background:url("../images/ic-certificate.png")50% 50%no-repeat;
+}
+
+.pic-2{
+    background:url("../images/ic-user.png")50% 50% no-repeat;
+}
+
+.items span{
+    font-size:35px;
+    color:#525252;
+    font-weight:normal;
+    display:block;
+    margin-top:5%;
+}
+
+.items p {
+    font-size:16px;
+    color:#525252;
+    font-weight:normal;
+    line-height:1.9em;
+}
+
+.item{
+    display:inline-block;
+    text-align:center;
+
+
+}
+
+footer{
+    background-color:#4caf50;
+    height:50px;
+}
+
+footer p {
+    font-size:14px;
+    color:#fff;
+    font-weight:normal;
+    text-align:right;
+    width:800px;
+    margin:0 auto;
+    line-height:50px;
+}

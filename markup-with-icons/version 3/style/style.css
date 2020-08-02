@@ -1,0 +1,61 @@
+body{
+    font-family:Arial, sans-serif;
+}
+
+.jumbotron{
+    width:408px;
+    margin:0 auto;
+}
+
+.container{
+    width:271px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+h1 a {
+    color:#414a5a;
+    font-size:26px;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style:none;
+    margin-bottom:5px;
+}
+
+li a {
+    color:#414a5a;
+    text-decoration:none;
+    font-size:13px;
+}
+
+li a span {
+    color:#9ee3e4;
+    font-size:20px;
+    margin-right:18px;
+}
+
+li a:hover{
+    color:white;
+    width:270px;
+    height:36px;
+    display:inline-block;
+    background:#485460;
+    padding-left:25px;
+    border-radius:3px;
+}
+
+li a:hover span {
+    color:white;
+    font-size:25px;
+}
+
+
+

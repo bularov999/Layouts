@@ -1,0 +1,65 @@
+body{
+    font-family:Arial , sans-serif;
+    line-height:1.3em;
+}
+
+.jumbotron{
+    width:346px;
+    margin: 200px;
+}
+
+.container{
+    width:305px;
+    margin:0 auto;
+    border:#d0d0d0 solid 1px;
+    border-radius:5px;
+}
+
+.content{
+    margin:0 auto;
+    text-align:left;
+    width:255px;
+}
+
+
+
+h1 a {
+    padding-left:30px;
+    text-decoration:none;
+    background: url("../images/man.png")no-repeat 0 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+
+hr{
+    color:#7c7c7c;
+    margin:0;
+}
+
+dt{
+    margin-bottom: 5px;
+}
+
+
+
+dt a {
+    text-decoration:underline;
+    font-size:14px;
+    color:#1f1f1f;
+    margin-left: 7px;
+}
+
+dt::before{
+    content:'\2714';
+    color:#7c7c7c;
+}
+
+dd{
+    margin-bottom:10px;
+    margin-left:20px;
+    color:#7c7c7c;
+    font-size:12px;
+}
